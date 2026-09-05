@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="Privacy Policy for Performance OS." />
+  <title>Performance OS — Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7f9;
+      --surface: rgba(255,255,255,.86);
+      --surface-2: #eef1f5;
+      --text: #121418;
+      --muted: #626a76;
+      --line: rgba(18,20,24,.10);
+      --accent: #4f5bd5;
+      --accent-soft: rgba(79,91,213,.10);
+      --shadow: 0 24px 70px rgba(20, 25, 35, .08);
+      --radius: 22px;
+      --max: 860px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1115;
+        --surface: rgba(24,27,33,.88);
+        --surface-2: #171a20;
+        --text: #f5f7fa;
+        --muted: #a7afbb;
+        --line: rgba(255,255,255,.10);
+        --accent: #9ca6ff;
+        --accent-soft: rgba(156,166,255,.12);
+        --shadow: 0 24px 80px rgba(0,0,0,.30);
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 10% 0%, var(--accent-soft), transparent 28rem),
+        var(--bg);
+      color: var(--text);
+      font: 16px/1.68 ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Inter, Roboto, Helvetica, Arial, sans-serif;
+      letter-spacing: -0.01em;
+    }
+
+    a { color: var(--accent); text-underline-offset: 3px; }
+
+    .shell {
+      width: min(calc(100% - 32px), var(--max));
+      margin: 0 auto;
+      padding: 48px 0 72px;
+    }
+
+    header {
+      padding: 34px 34px 30px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      backdrop-filter: blur(16px);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: .01em;
+      color: var(--muted);
+    }
+
+    .mark {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 7px var(--accent-soft);
+    }
+
+    h1 {
+      margin: 24px 0 8px;
+      font-size: clamp(34px, 7vw, 56px);
+      line-height: 1.02;
+      letter-spacing: -0.045em;
+    }
+
+    .lede {
+      margin: 0;
+      max-width: 700px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 24px;
+    }
+
+    .pill {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 7px 11px;
+      color: var(--muted);
+      background: var(--surface-2);
+      font-size: 13px;
+    }
+
+    main {
+      margin-top: 20px;
+      padding: 10px 34px 34px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      backdrop-filter: blur(16px);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    section {
+      padding: 28px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    section:last-child { border-bottom: 0; }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 22px;
+      line-height: 1.25;
+      letter-spacing: -0.025em;
+    }
+
+    p { margin: 9px 0; }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 22px;
+    }
+
+    li { margin: 7px 0; }
+
+    .notice {
+      margin-top: 16px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: var(--accent-soft);
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    footer {
+      padding: 24px 8px 0;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 640px) {
+      .shell { width: min(calc(100% - 20px), var(--max)); padding-top: 18px; }
+      header, main { padding-left: 20px; padding-right: 20px; border-radius: 18px; }
+      main { padding-top: 2px; }
+      section { padding: 23px 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="brand"><span class="mark" aria-hidden="true"></span> Performance OS</div>
+      <h1>Privacy Policy</h1>
+      <p class="lede">
+        Performance OS is a local-first performance application designed to help strength athletes
+        organize training, recovery, bodyweight, imported fitness data, and AI-assisted coaching.
+      </p>
+      <div class="meta" aria-label="Policy metadata">
+        <span class="pill">Effective: September 5, 2026</span>
+        <span class="pill">Local-first architecture</span>
+        <span class="pill">No advertising</span>
+        <span class="pill">No sale of personal data</span>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>1. Scope of this policy</h2>
+        <p>
+          This Privacy Policy explains how Performance OS handles information when you use the
+          application and when you connect third-party services such as WHOOP.
+        </p>
+        <p>
+          Performance OS is currently designed as a desktop application with local canonical storage.
+          Most application data is stored on the user's own device rather than in a Performance OS
+          cloud account.
+        </p>
+      </section>
+
+      <section>
+        <h2>2. Information Performance OS may process</h2>
+        <p>Depending on the features you choose to use, Performance OS may process:</p>
+        <ul>
+          <li>training history, exercises, sets, repetitions, load, RPE/RIR, and training plans;</li>
+          <li>bodyweight observations and related image metadata when you explicitly import them;</li>
+          <li>recovery information such as heart rate variability, resting heart rate, recovery score, sleep, strain, respiratory rate, SpO₂, or skin temperature when available from connected sources;</li>
+          <li>profile information you explicitly provide to the application;</li>
+          <li>conversation content and coaching requests entered into Performance OS;</li>
+          <li>technical provenance, revision history, sync status, and error information needed to keep imported data auditable and consistent.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. WHOOP data</h2>
+        <p>
+          If you connect a WHOOP account, Performance OS requests only the permissions needed for the
+          current recovery integration:
+        </p>
+        <ul>
+          <li><code>read:profile</code> — basic profile identification required to verify the connection;</li>
+          <li><code>read:cycles</code> — cycle and strain information;</li>
+          <li><code>read:recovery</code> — recovery information including HRV and resting heart rate;</li>
+          <li><code>read:sleep</code> — sleep sessions and sleep-related metrics.</li>
+        </ul>
+        <p>
+          Performance OS may also request the OAuth <code>offline</code> scope so that an authorized
+          connection can be refreshed without asking you to sign in every time.
+        </p>
+        <p>
+          The current WHOOP recovery integration does not request WHOOP workout or body-measurement
+          permissions unless a future version explicitly adds those features and asks for additional consent.
+        </p>
+      </section>
+
+      <section>
+        <h2>4. How WHOOP data is used</h2>
+        <p>WHOOP data is used to:</p>
+        <ul>
+          <li>display and analyze recovery-related information inside Performance OS;</li>
+          <li>create local recovery trends and compact recovery summaries;</li>
+          <li>reconcile updated or rescored WHOOP records without silently overwriting historical evidence;</li>
+          <li>support training and recovery decisions requested by the user.</li>
+        </ul>
+        <div class="notice">
+          WHOOP-imported measurements are treated as imported evidence. Performance OS keeps imported
+          provider data distinct from values calculated by the application and from information inferred
+          by AI features.
+        </div>
+      </section>
+
+      <section>
+        <h2>5. Local storage and credentials</h2>
+        <p>
+          Canonical Performance OS data is stored locally in the application's SQLite database on the
+          user's device.
+        </p>
+        <p>
+          Sensitive credentials such as a WHOOP OAuth access token, refresh token, or provider client
+          secret are intended to be stored in the operating system's secure credential storage/keyring,
+          not in the canonical athlete database or browser localStorage.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. AI features and third-party providers</h2>
+        <p>
+          Performance OS may include optional AI-assisted features. When you explicitly use such a
+          feature, information relevant to your request may be sent to the AI provider configured in
+          Performance OS in order to produce the requested response.
+        </p>
+        <p>
+          Performance OS is designed to send compact, relevant context rather than indiscriminately
+          forwarding all locally stored data. The privacy practices of an external AI provider are also
+          governed by that provider's own terms and privacy policy.
+        </p>
+      </section>
+
+      <section>
+        <h2>7. Other connected services</h2>
+        <p>
+          If you connect another service, such as a training-history provider, Performance OS may
+          retrieve data that you have authorized that service to provide. Imported records remain
+          associated with their source so the application can distinguish imported data from user-entered
+          observations and calculated values.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Sharing and sale of personal information</h2>
+        <p>
+          Performance OS does not sell personal information and does not use personal information for
+          third-party advertising.
+        </p>
+        <p>
+          Data is transmitted to external services only when required for a feature you choose to use,
+          such as connecting WHOOP or invoking a configured AI provider.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Retention and deletion</h2>
+        <p>
+          Local application data remains on your device until it is deleted through Performance OS,
+          removed with the application data, or otherwise deleted by you.
+        </p>
+        <p>
+          Disconnecting WHOOP removes the local authorization token and Performance OS will attempt to
+          revoke provider access when supported. Previously imported records may remain locally so that
+          historical training and recovery data is not silently destroyed. You may remove local
+          Performance OS data separately.
+        </p>
+      </section>
+
+      <section>
+        <h2>10. Security</h2>
+        <p>
+          Performance OS uses a local-first architecture, operating-system credential storage for
+          sensitive provider credentials, provenance tracking, and versioned records to reduce accidental
+          disclosure, silent overwrite, and data-integrity problems.
+        </p>
+        <p>
+          No software or storage system can guarantee absolute security. Users should also protect access
+          to their operating-system account and device.
+        </p>
+      </section>
+
+      <section>
+        <h2>11. Your control</h2>
+        <p>You control whether third-party services are connected to Performance OS.</p>
+        <ul>
+          <li>You may choose not to connect WHOOP.</li>
+          <li>You may disconnect WHOOP from Performance OS.</li>
+          <li>You may revoke Performance OS access from your WHOOP account/provider controls.</li>
+          <li>You may stop using optional AI features without disabling the local application.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>12. Children's privacy</h2>
+        <p>
+          Performance OS is not directed to children under 13, and it is not intended to knowingly
+          collect personal information from children under 13.
+        </p>
+      </section>
+
+      <section>
+        <h2>13. Changes to this policy</h2>
+        <p>
+          This policy may be updated when Performance OS adds new integrations, changes how data is
+          processed, or needs to clarify its privacy practices. The effective date at the top of this page
+          will be updated when the policy materially changes.
+        </p>
+      </section>
+
+      <section>
+        <h2>14. Contact</h2>
+        <p>
+          Privacy questions about Performance OS should be sent to the contact email listed for the
+          Performance OS application in the WHOOP Developer Dashboard.
+        </p>
+      </section>
+
+      <section>
+        <h2>15. WHOOP relationship</h2>
+        <p class="small">
+          Performance OS is an independent application and is not endorsed by or affiliated with WHOOP.
+          WHOOP data access is subject to the user's authorization and WHOOP's applicable platform terms
+          and privacy practices.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      © 2026 Performance OS · Privacy Policy
+    </footer>
+  </div>
+</body>
+</html>
